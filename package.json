@@ -12,6 +12,7 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "morgan": "~1.6.1",
+    "nodemon": "^1.8.1",
     "serve-favicon": "~2.3.0",
     "wechat": "^2.0.3"
   }
