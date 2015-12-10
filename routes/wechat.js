@@ -3,7 +3,7 @@ var router = express.Router();
 
 var wechat = require('wechat');
 var config = require('../config.js');
-console.log(config);
+// console.log(config);
 
 router.use('/wechat', wechat(config, function (req, res, next) {
     // 微信输入信息都在req.weixin上
